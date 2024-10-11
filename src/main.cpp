@@ -21,12 +21,12 @@ controller Controller1 = controller(controllerType::primary);
 
 brain Brain;
 
-motor Left1 = motor(PORT6);
-motor Left2 = motor(PORT7);
-motor Left3 = motor(PORT8);
-motor Right1 = motor(PORT3, true);
-motor Right2 = motor(PORT12, true);
-motor Right3 = motor(PORT5, true);
+motor Left1 = motor(PORT11);
+motor Left2 = motor(PORT13);
+motor Left3 = motor(PORT1);
+motor Right1 = motor(PORT5, true);
+motor Right2 = motor(PORT6, true);
+motor Right3 = motor(PORT3, true);
 
 motor Intake = motor(PORT19);
 motor Belt = motor(PORT18, true);
